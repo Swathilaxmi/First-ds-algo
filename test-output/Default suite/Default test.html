@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>65/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>61/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 05 22:07:19 PST 2023</td>
+<td>Started on:</td><td>Mon Dec 11 21:23:24 PST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>498 seconds (498517 ms)</td>
+<tr><td>Total time:</td><td>425 seconds (425284 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,84 +76,6 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password similar to username", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:65)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1039249687", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1039249687'><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:65)
-</pre></div></td>
-<td>49</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able run valid code in tryEditor for Time Complexity page", "Optional[Testing Data Structure data driven page of the DS algo application]"</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : NameError: name &apos;Print&apos; is not defined on line 1}
-  (Session info: chrome=119.0.6045.200): NameError: name &apos;Print&apos; is not defined on line 1
-Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f514ec029cd13d22c7e7dae78b0eaec2, findElement {using=xpath, value=//button[contains(text(),&apos;Run&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\16692\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57324/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f514ec029cd13d22c7e7dae78b0eaec2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy32.click(Unknown Source)
-	at Pageobjects.DataStructurePage.clickonRun(DataStructurePage.java:51)
-	at Stepdefinations.Steps.the_user_clicks_on_run_button(Steps.java:256)
-	at ?.The user clicks on run button(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/DataStructureDataDriven.feature:24)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1709852898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1709852898'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : NameError: name &apos;Print&apos; is not defined on line 1}
-  (Session info: chrome=119.0.6045.200): NameError: name &apos;Print&apos; is not defined on line 1
-Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f514ec029cd13d22c7e7dae78b0eaec2, findElement {using=xpath, value=//button[contains(text(),&apos;Run&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\16692\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57324/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f514ec029cd13d22c7e7dae78b0eaec2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy32.click(Unknown Source)
-	at Pageobjects.DataStructurePage.clickonRun(DataStructurePage.java:51)
-	at Stepdefinations.Steps.the_user_clicks_on_run_button(Steps.java:256)
-	at ?.The user clicks on run button(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/DataStructureDataDriven.feature:24)
-</pre></div></td>
-<td>128</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is succesfully able to register", "Optional[Register]"</td>
 <td><div><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as warriors] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:110)
@@ -162,92 +84,20 @@ Session ID: f514ec029cd13d22c7e7dae78b0eaec2
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:187)
+	at Stepdefinations.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:188)
 	at ?.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as warriors&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:114)
-</pre></div><a href='#' onClick='toggleBox("stack-trace657398389", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace657398389'><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as warriors] but found [password_mismatch:The two password fields didn’t match.]
+</pre></div><a href='#' onClick='toggleBox("stack-trace459757934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace459757934'><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as warriors] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:187)
+	at Stepdefinations.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:188)
 	at ?.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as warriors&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:114)
 </pre></div></td>
-<td>92</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error message for commonly used password", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;Password can’t be commonly used password&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1968113588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1968113588'><pre>java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;Password can’t be commonly used password&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:81)
-</pre></div></td>
-<td>116</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password with only numbers", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:49)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1913018635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1913018635'><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:49)
-</pre></div></td>
-<td>45</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error message for password with characters less than 8", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:97)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1665117632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1665117632'><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Stepdefinations.Steps.it_should_display_an_error_message(Steps.java:181)
-	at ?.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/16692/eclipse-workspace/DsalgoProject/./Features/registerPage.feature:97)
-</pre></div></td>
-<td>62</td>
+<td>40</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -259,74 +109,39 @@ Session ID: f514ec029cd13d22c7e7dae78b0eaec2
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
 <td></td>
-<td>56</td>
+<td>58</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
 <td></td>
-<td>22</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
-<td></td>
-<td>87</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "Optional[Testing Data Structure page of the DS algo application]"</td>
-<td></td>
-<td>65</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>53</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>85</td>
+<td>49</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
 <td></td>
-<td>11</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying Register link", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>12</td>
+<td>95</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
 <td></td>
-<td>60</td>
+<td>83</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
-<td>91</td>
+<td>49</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to graph using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
 <td></td>
-<td>116</td>
+<td>25</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
 <td></td>
-<td>23</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>59</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password mismatch", "Optional[Register]"</td>
-<td></td>
-<td>91</td>
+<td>95</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
@@ -334,109 +149,94 @@ Session ID: f514ec029cd13d22c7e7dae78b0eaec2
 <td>77</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Try Here page", "Optional[Testing Data Structure page of the DS algo application]"</td>
-<td></td>
-<td>87</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>58</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
-<td></td>
-<td>81</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
-<td></td>
-<td>92</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to graph using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
-<td></td>
-<td>73</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
-<td></td>
-<td>52</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>89</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>36</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>58</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
 <td></td>
-<td>36</td>
+<td>78</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>64</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>44</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>80</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
-<td></td>
-<td>105</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>64</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>73</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>16</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>87</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
-<td></td>
-<td>69</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
 <td></td>
 <td>62</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
 <td></td>
-<td>110</td>
+<td>70</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able run valid code in tryEditor for Time Complexity page", "Optional[Testing Data Structure data driven page of the DS algo application]"</td>
+<td></td>
+<td>171</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>32</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>27</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
+<td></td>
+<td>27</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>37</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td></td>
+<td>64</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>94</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "Optional[Testing Signin page of the DS algo application]"</td>
+<td></td>
+<td>61</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>37</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>95</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>82</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "Optional[Testing Data Structure page of the DS algo application]"</td>
+<td></td>
+<td>77</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>49</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>55</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>36</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
@@ -444,104 +244,44 @@ Session ID: f514ec029cd13d22c7e7dae78b0eaec2
 <td>38</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>103</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
 <td></td>
-<td>91</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Register", "Optional[Home]"</td>
-<td></td>
-<td>53</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>85</td>
+<td>63</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>25</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
 <td>46</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>63</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>56</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
-<td></td>
-<td>62</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>64</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>41</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>63</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>57</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>120</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>33</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
-<td>114</td>
+<td>69</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
 <td></td>
-<td>35</td>
+<td>45</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Try Here page", "Optional[Testing Data Structure page of the DS algo application]"</td>
 <td></td>
 <td>100</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
 <td></td>
-<td>88</td>
-<td>TestRunner.TestRun@15a34df2</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "Optional[Testing Data Structure page of the DS algo application]"</td>
-<td></td>
-<td>56</td>
+<td>42</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
-<td>109</td>
+<td>94</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
@@ -549,19 +289,109 @@ Session ID: f514ec029cd13d22c7e7dae78b0eaec2
 <td>26</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
 <td></td>
-<td>125</td>
+<td>50</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>67</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td></td>
+<td>78</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>67</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to graph using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>70</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>81</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>101</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to graph using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>116</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>34</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
+<td></td>
+<td>96</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>68</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>85</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>74</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Register", "Optional[Home]"</td>
+<td></td>
+<td>63</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
+<td></td>
+<td>97</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Home]"</td>
 <td></td>
-<td>49</td>
+<td>66</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
 <td></td>
-<td>54</td>
+<td>45</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td></td>
+<td>50</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td></td>
+<td>117</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying Register link", "Optional[Testing Signin page of the DS algo application]"</td>
+<td></td>
+<td>40</td>
+<td>TestRunner.TestRun@15a34df2</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
+<td></td>
+<td>38</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
 <td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
@@ -569,19 +399,19 @@ Session ID: f514ec029cd13d22c7e7dae78b0eaec2
 <td>61</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
 <td></td>
-<td>103</td>
+<td>75</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "Optional[Testing Data Structure page of the DS algo application]"</td>
 <td></td>
-<td>20</td>
+<td>73</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
-<td>31</td>
+<td>88</td>
 <td>TestRunner.TestRun@15a34df2</td></tr>
 </table><p>
 </body>
